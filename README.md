@@ -11,7 +11,6 @@ Application works in several modes:
 
 - **WebServer**
 	- Webserver GET link: [http://localhost:33777/?urls={url1},{url2},{...},{urlN}](http://localhost:33777/?urls={url1},{url2},{...},{urlN})
-	- Webserver POST to http://localhost:33777/ with raw JSON ["{url1}", "{url2}", ... ,"{urlN}"]
 	- Examples:
 		- [http://localhost:33777/?urls=zprn://url|example.com|/url_path,url|domain|/url_path2,url|domain|/url_path3](http://localhost:33777/?urls=zprn://url|example.com|/url_path,url|domain|/url_path2,url|domain|/url_path3)
 		- [http://localhost:33777/?urls=zprn://url|example.com|/url_path,zprn://url|domain|/url_path2,zprn://url|domain|/url_path3](http://localhost:33777/?urls=zprn://url|example.com|/url_path,zprn://url|domain|/url_path2,zprn://url|domain|/url_path3)
